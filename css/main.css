@@ -13,6 +13,11 @@ body{
     padding-right: 20px;
   }
 
+  .right::after{
+      content: '';
+      clear: right;
+  }
+
   .uppercase{
       text-transform:  uppercase;
   }
@@ -162,6 +167,11 @@ main{
     position: absolute;
     bottom: 25px;
   }
+
+  h2 img{
+      width: 16px;
+      height: 16px;
+  }
 /*Main ends*/
 
 /*'Latest News' begins*/
@@ -181,6 +191,11 @@ main{
   margin: 0 20px 120px 0;
   float: left;
   color: #000;
+}
+
+.l-news::after{
+    content: ' ';
+    clear: left;
 }
 .l-news:hover{
   cursor: pointer;
@@ -230,8 +245,75 @@ main{
 }
 /*ends*/
 
-/* begins*/
-/*ends*/
+/*Funding begins*/
+
+#l-funding {
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+#l-funding h2{
+    margin-left: 50px;
+    color: orangered;
+}
+.row-container{
+    list-style: none;
+    display: flex;
+}
+
+.row-item {
+    margin: 10px;
+    flex-basis: 0;
+    flex-grow: 1;
+    background-color: rgb(238, 229, 216);
+}
+
+.f-logo{
+    position: relative;
+    float: left;
+    margin: 15px;
+}
+
+.f-subhead {
+    background-color: rgb(226, 122, 131);
+}
+
+.f-subhead h6 {
+    font-weight: lighter;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.f-subhead h4 {
+    margin: 0;
+    padding: 5px;
+}
+
+.f-header{
+    color: #fff;
+    background-color: #f23;
+    height: 45px;
+    font-weight: bold;
+}
+
+.f-header span {
+    margin-top: 120px;
+}
+
+.f-catz {
+    border-bottom: 1px solid lightcoral;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+    margin: 15px;
+}
+
+.row-item p {
+    margin: 15px;
+    font-size: 0.8em;
+    line-height: 1.7em;
+}
+
+/*Funding ends*/
 
 /* begins*/
 /*ends*/
@@ -242,8 +324,28 @@ main{
 /* begins*/
 /*ends*/
 
-/* begins*/
-/*ends*/
+/*Footer begins*/
+footer{
+    text-align: center;
+}
+
+.footer-icons{
+    background: #131313;
+}
+
+.final-footer div {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+}
+
+.footer-logo{
+    display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
+}
+/*Footer ends*/
 
 /*Responsive Design begins*/
 @media screen and (max-width: 1024px) {
@@ -255,24 +357,24 @@ main{
 }
 
 @media screen and (max-width: 767px){
-.navbar > ul , header > ul{
-        display: none
-    }
+    .navbar > ul , header > ul{
+            display: none
+        }
 
-.menu{
+    .menu{
         display: inline;
     }
 
-.logo{
-      height: 52px;
-      top: 0;
+    .logo{
+        height: 52px;
+        top: 0;
     }
 
-.logo > div{
-        display: none;
-    }
+    .logo > div{
+            display: none;
+        }
 
-header{
+    header{
       float: left;
       position: fixed;
       top: 52px;
@@ -281,20 +383,34 @@ header{
       z-index: 1001;
     }
 
-.alert {
+
+    .alert {
       margin-left: 120px;
       width: calc(100% - 120px);
     }
 
-.featured{
+    .featured{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
       }
 
-      .featured > :first-child{
+    .featured > :first-child{
         grid-column: auto;
         grid-row: auto;
-      }
+    }
+
+    .footer-icons{
+        padding: 3em 0 2em;
+    }
+
+    .row-container {
+        flex-direction: column;
+    }
+
+    .row-item {
+        display: block;
+        width: 100%;
+    }
 }
 /*Responsive ends*/
 
