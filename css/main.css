@@ -1,7 +1,7 @@
 /*General CSS*/
 body{
     margin: 0;
-    font-family: Helvetica, sans-serif;
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
 }
 
   .right{
@@ -172,7 +172,7 @@ main{
   height: 600px;
   margin: 50px;
   padding-left: 35px;
-  color: #f23;
+  color: #f42;
 }
 
 .l-news{
@@ -243,7 +243,6 @@ main{
 /*ends*/
 
 /*Funding begins*/
-
 #l-funding {
   margin: 0 auto;
   padding: 0 40px;
@@ -253,6 +252,7 @@ main{
   margin-left: 50px;
   color: orangered;
 }
+
 .row-container{
   list-style: none;
   display: flex;
@@ -309,17 +309,52 @@ main{
   font-size: 0.8em;
   line-height: 1.7em;
 }
-
 /*Funding ends*/
 
 
 /*HAG begins*/
 #HAG{
-  background-color: #000;
-  margin: 50px;
+
+  background-color: #fff;
+  margin: 50px 50px 100px 50px;
   padding-left: 35px;
   height: 500px;
+}
 
+.Hag{
+  background-color: #fff;
+  float: left;
+  height: inherit;
+  width: 31%;
+  margin: 0 20px 120px 0;
+
+}
+
+.Hag h2{
+  font-family: Arial;
+  color: #f42;
+}
+
+.Hag ul{
+  margin-left: -25px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.Hag hr{
+  opacity: 0.3;
+}
+
+.Hag0{
+  background-color: #eee;
+  height: 276px;
+  margin-bottom: 5px;
+}
+
+.l-Hag0{
+  background-color: #ddd;
+  height: 100px;
+  margin-top: -10px;
 }
 
 /*ends*/
