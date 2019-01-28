@@ -3,9 +3,7 @@ body{
     margin: 0;
     font-family: Helvetica, sans-serif;
 }
-  
-  
-  
+
   .right{
     float: right;
     max-width: 100%;
@@ -14,13 +12,18 @@ body{
     text-align: right;
     padding-right: 20px;
   }
-  
+
   .uppercase{
       text-transform:  uppercase;
   }
+
+  .main-divs{
+
+  }
 /*ends*/
 
-/* begins*/
+
+/*Navbar begins*/
 .logo{
     display: none;
     float: left;
@@ -32,33 +35,36 @@ body{
     width: 120px;
     z-index: 501;
   }
-  .logo > h1{
+
+.logo > h1{
     width: 80px;
     display: block;
     position: sticky;
     top: 7px;
     margin: auto;
   }
-  
-  .title{
+
+.title{
     color: white;
     position: absolute;
     background-image: linear-gradient(170deg, #f42b, #0000, #0000);
     width: 100%;
     height: 100%;
   }
-  .title > h1{
+
+.title > h1{
     padding-left: 25px;
     font-size: 10vw;
     margin-top: 10px;
   }
-  header{
+
+header{
     background-color: black;
     color: grey;
     height: 3.0em;
   }
-  
-  header > ul, .navbar > ul{
+
+header > ul, .navbar > ul{
     list-style: none;
     position: relative;
     display: inline-block;
@@ -66,17 +72,18 @@ body{
     white-space: nowrap;
     overflow: hidden;
   }
-  .navbar > ul{
+
+.navbar > ul{
     max-width: 1200px;
   }
-  
-  header > ul > li , .navbar > ul > li{
+
+header > ul > li , .navbar > ul > li{
     display: inline;
     white-space: nowrap;
     padding-right: 5px;
   }
 
-  .navbar{
+.navbar{
     background-color: white;
     position: -webkit-sticky;
     position: sticky;
@@ -85,14 +92,14 @@ body{
     z-index: 500;
     height: 3.0em;
   }
-  
-  .navbar > ul > li{
+
+.navbar > ul > li{
     display: inline;
     padding-right: 10px;
-  
+
   }
 
-  .alert {
+.alert {
     margin: 0;
     padding: 10px 20px;
     color: black;
@@ -104,8 +111,8 @@ body{
     text-overflow: ellipsis;
     width: 100%;
   }
-  
-  .search , .menu{
+
+.search , .menu{
     border-width: 1px;
     border-left-style: solid;
     display: inline;
@@ -113,17 +120,17 @@ body{
     padding-top: 18px;
     padding-bottom: 18px;
   }
-  
-  .menu{ display: none;}
+
+.menu{ display: none;}
 /*ends*/
 
 /*Main begins*/
 main{
     height: 1500px;
-    
+
   }
-  
-  .featured{
+
+.featured{
     color: white;
     height: 75vh;
     max-height: 560px;
@@ -133,31 +140,94 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  
-  .featured > :first-child{
+
+.featured > :first-child{
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
   }
-  
-  .grid-featured-item{
+
+.grid-featured-item{
     position: relative;
   }
-  
-  .verse-hero{
+
+.verse-hero{
     background-color: SteelBlue;
     background-image: url("../images/your_verse_hero.jpg");
     background-position: right bottom;
     background-size: cover;
   }
-  
-  .content{
+
+.content{
     padding-left: 15px;
     position: absolute;
     bottom: 25px;
   }
 /*Main ends*/
 
-/* begins*/
+/*'Latest News' begins*/
+#latest-news{
+  background-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+  height: 600px;
+  margin: 50px;
+  padding-left: 35px;
+  color: #f23;
+}
+.l-news{
+  font-size: 16px;
+  height: 135px;
+  width: 270px;
+  margin: 0 20px 120px 0;
+  float: left;
+  color: #000;
+}
+.l-news:hover{
+  cursor: pointer;
+}
+.time-stamp{
+  color: #888;
+  font-size: 14px;
+  font-weight: 200;
+
+}
+.ln-0{
+  background-color: #eee;
+  height: inherit;
+  width: inherit;
+}
+#ln-1{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/4ZyaFm2-540x270.jpg);
+  background-size: contain;
+}
+#ln-2{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Messenger-WhatsApp-Instagram-511x270.jpg);
+  background-size: contain;
+}
+#ln-3{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Sandmarc-514x270.jpg);
+  background-size: cover;
+}
+#ln-4{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/moonday-morning-bitcoin-blockchain-cryptocurrency-hacks-ethereum-480x270.jpg);
+  background-size: contain;
+}
+#ln-5{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Untitled-design-11-1-516x270.png);
+  background-size: contain;
+}
+#ln-6{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/bwbfYOd-540x270.jpg);
+  background-size: contain;
+}
+#ln-7{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Untitled-design-12-1-516x270.png);
+  background-size: contain;
+}
+#ln-8{
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/Untitled-design-10-1-516x270.png);
+  background-size: contain;
+}
 /*ends*/
 
 /* begins*/
@@ -183,26 +253,26 @@ main{
     .grid-content{ grid-template-columns: repeat(2, 1fr);}
     .row-item:nth-of-type(n + 4){  display: none;  }
 }
-  
+
 @media screen and (max-width: 767px){
-    .navbar > ul , header > ul{
+.navbar > ul , header > ul{
         display: none
     }
 
-    .menu{ 
+.menu{
         display: inline;
     }
 
-    .logo{
+.logo{
       height: 52px;
       top: 0;
     }
 
-    .logo > div{
+.logo > div{
         display: none;
     }
 
-    header{
+header{
       float: left;
       position: fixed;
       top: 52px;
@@ -211,16 +281,16 @@ main{
       z-index: 1001;
     }
 
-    .alert {
+.alert {
       margin-left: 120px;
       width: calc(100% - 120px);
     }
 
-    .featured{
+.featured{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: auto;
       }
-    
+
       .featured > :first-child{
         grid-column: auto;
         grid-row: auto;
