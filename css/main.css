@@ -55,7 +55,7 @@ body{
   header{
     background-color: black;
     color: grey;
-    height: 3.25em;
+    height: 3.0em;
   }
   
   header > ul, .navbar > ul{
@@ -63,12 +63,11 @@ body{
     position: relative;
     display: inline-block;
     padding-left: 20px;
-    max-width: calc(100% - 340px - 120px);
     white-space: nowrap;
     overflow: hidden;
   }
   .navbar > ul{
-    max-width: calc(100% - 140px - 120px);
+    max-width: 1200px;
   }
   
   header > ul > li , .navbar > ul > li{
@@ -84,7 +83,7 @@ body{
     top: 0px;
     color: grey;
     z-index: 500;
-    height: 3.25em;
+    height: 3.0em;
   }
   
   .navbar > ul > li{
@@ -118,8 +117,44 @@ body{
   .menu{ display: none;}
 /*ends*/
 
-/* begins*/
-/*ends*/
+/*Main begins*/
+main{
+    height: 1500px;
+  }
+  
+  .featured{
+    color: white;
+    height: 75vh;
+    max-height: 560px;
+    margin: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  .featured > :first-child{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+  
+  .grid-featured-item{
+    position: relative;
+  }
+  
+  .verse-hero{
+    background-color: SteelBlue;
+    background-image: url("../images/your_verse_hero.jpg");
+    background-position: right bottom;
+    background-size: cover;
+  }
+  
+  .content{
+    padding-left: 15px;
+    position: absolute;
+    bottom: 25px;
+  }
+/*Main ends*/
 
 /* begins*/
 /*ends*/
@@ -179,6 +214,16 @@ body{
       margin-left: 120px;
       width: calc(100% - 120px);
     }
+
+    .featured{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+      }
+    
+      .featured > :first-child{
+        grid-column: auto;
+        grid-row: auto;
+      }
 }
 /*Responsive ends*/
 
