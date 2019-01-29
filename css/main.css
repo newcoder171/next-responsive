@@ -340,6 +340,7 @@ main{
   margin-left: -25px;
   font-size: 13px;
   font-family: sans-serif;
+  list-style-type: circle;
 }
 
 .Hag hr{
@@ -347,12 +348,14 @@ main{
 }
 
 .Hag0{
+  display: block;
   background-color: #bbb;
   height: 276px;
   margin-bottom: 5px;
 }
 
 .Hag0 h5, .l-Hag0 h5{
+  padding-left: 10px;
   font-family: Shentox,sans-serif;
   font-weight: 500;
   text-transform: uppercase;
@@ -362,14 +365,32 @@ main{
   color: #fff;
 }
 
+.Hag0 h5{
+  display: block;
+  vertical-align: bottom;
+}
+
 .Hag0 h3{
+  display: table-cell;
+  vertical-align: bottom;
+  font-family: Roboto Condensed;
+  margin-bottom: -5px;
+  padding-top: 115px;
+  padding-left: 10px;
+  padding-right: 20px;
+  height: 80px;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.1;
 }
+
 .Hag0 p{
+  height: 10px;
+  padding-left: 10px;
+  padding-top: 0;
   font-size: 13px;
-  color: #ccc;
+  color: #777;
+
 }
 
 .l-Hag0{
@@ -380,6 +401,13 @@ main{
 }
 
 .l-Hag0 h5{
+  padding-top: 10px;
+  color: #f23;
+}
+
+.l-Hag0 h6{
+  padding-top: 5px;
+  padding-left: 10px;
   color: #f23;
 }
 
@@ -448,7 +476,7 @@ ul{
   height: 9px;
   margin-right: 1px;
   vertical-align: baseline;
-} 
+}
 /*Footer ends*/
 
 /*Responsive Design begins*/
