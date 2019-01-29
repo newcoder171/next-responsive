@@ -2,6 +2,7 @@
 body{
     margin: 0;
     font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    overflow-x: hidden;
 }
 
   .right{
@@ -244,8 +245,10 @@ main{
 
 /*Funding begins*/
 #l-funding {
-  margin: 0 auto;
-  padding: 0 40px;
+  background-color: #fff;
+  margin: 50px 100px 20px -8px;
+  height: 300px;
+
 }
 
 #l-funding h2{
@@ -314,9 +317,8 @@ main{
 
 /*HAG begins*/
 #HAG{
-
   background-color: #fff;
-  margin: 50px 50px 100px 50px;
+  margin: 50px 50px 200px 50px;
   padding-left: 35px;
   height: 500px;
 }
@@ -339,7 +341,9 @@ main{
   margin-left: -25px;
   font-size: 13px;
   font-family: sans-serif;
+  color: #555;
   list-style-type: circle;
+  height: 300px;
 }
 
 .Hag hr{
@@ -348,8 +352,9 @@ main{
 
 .Hag0{
   display: block;
+  border: 1px solid #888;
   background-color: #bbb;
-  height: 276px;
+  height: 250px;
   margin-bottom: 5px;
 }
 
@@ -367,6 +372,8 @@ main{
 .Hag0 h5{
   display: block;
   vertical-align: bottom;
+  padding-top: 100px;
+  margin-bottom: 0;
 }
 
 .Hag0 h3{
@@ -374,10 +381,9 @@ main{
   vertical-align: bottom;
   font-family: Roboto Condensed;
   margin-bottom: -5px;
-  padding-top: 115px;
   padding-left: 10px;
   padding-right: 20px;
-  height: 80px;
+  height: 60px;
   font-size: 20px;
   font-weight: 700;
   line-height: 1.1;
@@ -393,9 +399,10 @@ main{
 }
 
 .l-Hag0{
+
   background-color: #ddd;
   height: 100px;
-  margin-top: -10px;
+  margin-top: -20px;
   color: #f42;
 }
 
@@ -405,23 +412,36 @@ main{
 }
 
 .l-Hag0 h6{
-  padding-top: 5px;
+  width: 69%;
+  font-size: 15px;
+  margin-top: -15px;
   padding-left: 10px;
   color: #f23;
 }
 
+.l-Hag0 img{
+  border: 1px solid #888;
+  position: relative;
+  bottom: 105px;
+  left: 260px;
+  background-color: #000;
+  height: 98px;
+  width: 30%;
+
+}
+
 #Hard1{
-  background-image: url("");
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F02%2Fbitgrail.png");
   background-size: contain;
 }
 
 #Apps1{
-  background-image: url("");
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F02%2Fbitgrail.png");
   background-size: contain;
 }
 
 #Gear1{
-  background-image: url("");
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F02%2Fbitgrail.png");
   background-size: contain;
 }
 
@@ -438,9 +458,9 @@ main{
 
 /*Latest deal begins*/
 #latest-deals{
-  margin: 0 auto;
+  margin: 40px;
   padding: 0 60px;
-} 
+}
 
 img[alt="demo"] {
   width: 100%;
@@ -453,7 +473,7 @@ img[alt="demo"] {
 }
 
 .d-item {
-  
+
 }
 /*ends*/
 
