@@ -414,17 +414,33 @@ main{
 
 /*Footer begins*/
 footer{
+  position: relative;
+  bottom: 0;
   text-align: center;
 }
 
-.footer-icons{
+.footer-first{
   background: #131313;
+}
+
+ul{
+  list-style: none;
+}
+
+.footer-icons{
+  margin-bottom: 50px;
+}
+
+.final-footer {
+  background-color: #000;
+  color: #ddd;
 }
 
 .final-footer div {
   margin: 0 auto;
   max-width: 1192px;
   padding: 0 20px;
+  height: 30px;
 }
 
 .footer-logo{
@@ -432,7 +448,7 @@ footer{
   height: 9px;
   margin-right: 1px;
   vertical-align: baseline;
-}
+} 
 /*Footer ends*/
 
 /*Responsive Design begins*/
@@ -489,7 +505,9 @@ header{
 /*Responsive ends*/
 
 
-
+.clear {
+  clear: both;
+}
 
 
 
