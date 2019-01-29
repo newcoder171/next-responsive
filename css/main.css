@@ -19,7 +19,8 @@ body{
 
   .main-divs{
     font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
-
+    margin: 50px 50px 100px 50px;
+    padding-left: 35px;
   }
 /*ends*/
 
@@ -105,7 +106,7 @@ header > ul > li , .navbar > ul > li{
     padding: 10px 20px;
     color: black;
     background-color: gold;
-    top: 52px;
+    top: 47px;
     z-index: 1000;
     height: auto;
     white-space: nowrap;
@@ -153,7 +154,6 @@ main{
 
 .verse-hero{
     background-color: SteelBlue;
-    background-image: url("../images/your_verse_hero.jpg");
     background-position: right bottom;
     background-size: cover;
   }
@@ -168,7 +168,6 @@ main{
 /*'Latest News' begins*/
 #latest-news{
   background-color: transparent;
-
   font-weight: bold;
   height: 600px;
   margin: 50px;
@@ -428,10 +427,34 @@ main{
 
 /*ends*/
 
-/* begins*/
-/*ends*/
+/*Main body begins*/
+#main-body{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px;
+  max-width: 1300px;
+}
+/*Main body ends*/
 
-/* begins*/
+/*Latest deal begins*/
+#latest-deals{
+  margin: 0 auto;
+  padding: 0 60px;
+} 
+
+img[alt="demo"] {
+  width: 100%;
+}
+
+#latest-deals>div{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.d-item {
+  
+}
 /*ends*/
 
 /* begins*/
@@ -445,30 +468,45 @@ footer{
   position: relative;
   bottom: 0;
   text-align: center;
+  height: 280px;
+  margin-top: 80px;
 }
 
 .footer-first{
   background: #131313;
+  height: 180px;
+  color: #ccc;
+  padding-top: 80px;
+  box-sizing: border-box;
 }
 
-ul{
-  list-style: none;
+.footer-first div {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 40px 20px;
+  height: 30px;
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
 }
 
-.footer-icons{
-  margin-bottom: 50px;
+.footer-first div > span {
+  margin: 5px;
 }
+
 
 .final-footer {
+  height: 100px;
   background-color: #000;
-  color: #ddd;
+  color: #ccc;
 }
 
 .final-footer div {
   margin: 0 auto;
   max-width: 1192px;
-  padding: 0 20px;
+  padding: 40px 20px;
   height: 30px;
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
 }
 
 .footer-logo{
