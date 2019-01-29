@@ -18,6 +18,7 @@ body{
   }
 
   .main-divs{
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
 
   }
 /*ends*/
@@ -167,7 +168,7 @@ main{
 /*'Latest News' begins*/
 #latest-news{
   background-color: transparent;
-  font-size: 24px;
+
   font-weight: bold;
   height: 600px;
   margin: 50px;
@@ -346,15 +347,55 @@ main{
 }
 
 .Hag0{
-  background-color: #eee;
+  background-color: #bbb;
   height: 276px;
   margin-bottom: 5px;
+}
+
+.Hag0 h5, .l-Hag0 h5{
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  line-height: 1.5;
+  font-size: 13px !important;
+  color: #fff;
+}
+
+.Hag0 h3{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+.Hag0 p{
+  font-size: 13px;
+  color: #ccc;
 }
 
 .l-Hag0{
   background-color: #ddd;
   height: 100px;
   margin-top: -10px;
+  color: #f42;
+}
+
+.l-Hag0 h5{
+  color: #f23;
+}
+
+#Hard1{
+  background-image: url("");
+  background-size: contain;
+}
+
+#Apps1{
+  background-image: url("");
+  background-size: contain;
+}
+
+#Gear1{
+  background-image: url("");
+  background-size: contain;
 }
 
 /*ends*/
