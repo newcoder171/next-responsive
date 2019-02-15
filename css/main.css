@@ -345,16 +345,13 @@ h2::after{
   flex-flow: row wrap;
 }
 
+
 .Hag{
-  /* background-color: #fff;
-  float: left;
-  height: inherit;
-  width: 31%;
-  margin: 0 20px 120px 0; */
-  flex-basis: 30.33333333%;
-  max-width: 30.33333333%;
+  box-sizing: border-box;
+  flex-basis: 33%;
+  max-width: 33%;
   flex: 0 0 auto;
-    padding: 8px;
+  padding: 8px
 }
 
 .Hag h2{
@@ -371,8 +368,9 @@ h2::after{
   height: 300px;
 }
 
-.Hag hr{
-  opacity: 0.3;
+.Hag ul>li{
+  padding: 10px;
+  border-bottom: 1px solid #eee;
 }
 
 .Hag0{
@@ -566,8 +564,13 @@ footer{
     .title{ display: none; }
     .latest-divs{ grid-template-columns: repeat(2, 1fr);}
     .row-item:nth-of-type(n + 4){  display: none;  }
+    .row-item{flex-basis: 33%;, flex-wrap: wrap;}
     .Hag{
-      width: 25%;
+      box-sizing: border-box;
+      flex-basis: 50%;
+      max-width: 50%;
+      flex: 0 0 auto;
+      padding: 8px
     }
 }
 
@@ -638,7 +641,13 @@ footer{
 
   .row-item:nth-of-type(n + 4){  display: block;  }
   .row-item{width: 100%;}
-  .Hag{ width: 25%; }
+  .Hag{
+    box-sizing: border-box;
+    flex-basis: 100%;
+    max-width: 100%;
+    flex: 0 0 auto;
+    padding: 8px
+  }
 
   .funding-divs{flex-direction: column;}
 }
