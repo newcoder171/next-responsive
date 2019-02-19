@@ -233,7 +233,7 @@ header > ul > li , .navbar > ul > li{
   margin: 15px;
 }
 
-#ln-z{
+.ln-z{
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/bwbfYOd-540x270.jpg);
   background-size: contain;
 }
@@ -564,7 +564,7 @@ footer{
     .title{ display: none; }
     .latest-divs{ grid-template-columns: repeat(2, 1fr);}
     .row-item:nth-of-type(n + 4){  display: none;  }
-    .row-item{flex-basis: 33%;, flex-wrap: wrap;}
+    .row-item{flex-basis: 33%; flex-wrap: wrap;}
     .Hag{
       box-sizing: border-box;
       flex-basis: 50%;
