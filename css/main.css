@@ -208,18 +208,18 @@ header > ul > li , .navbar > ul > li{
 
 .f-subhead h4 {
   margin: 0;
-    padding: 5px;
-    padding-top: 15px;
+  padding: 5px;
+  padding-top: 15px;
 }
 
 .f-header{
   background-color: OrangeRed;
-    line-height: 50px;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: white;
-    height: 50px;
-    white-space: nowrap;
+  line-height: 50px;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: white;
+  height: 50px;
+  white-space: nowrap;
 }
 
 .f-header span {
@@ -422,7 +422,6 @@ h2::after{
 }
 
 .l-Hag0{
-
   background-color: #ddd;
   height: 100px;
   margin-top: -20px;
@@ -453,19 +452,60 @@ h2::after{
 
 }
 
-#Hard1{
+.Hard1{
   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F02%2Fbitgrail.png");
   background-size: contain;
 }
 
-#Apps1{
+.Apps1{
   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F02%2Fbitgrail.png");
   background-size: contain;
 }
 
-#Gear1{
+.Gear1{
   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F02%2Fbitgrail.png");
   background-size: contain;
+}
+
+.m-hag {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255,68,34,.06);
+  margin: 2px 0;
+}
+
+.m-hag-head{
+  flex: 1;
+  overflow: hidden;
+  padding: 10px 14px 0;
+}
+
+.m-hag-section{
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.m-hag-title{
+  max-height: 56px;
+  overflow: hidden;
+  margin: 0;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.m-hag-img{
+  flex: 0 0 96px;
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&amp;url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2018%2F02%2Fbitgrail.png);
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
 }
 
 /*ends*/
